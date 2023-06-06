@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/255531e0d2.js" crossorigin="anonymous"></script>
+    <title>Farmacia Siempre Saludable</title>
+</head>
+<body>
+    
+<!--Aside o barra lateral-->
+    <aside>
+        <span class="logo">
+            <img src="assets/img/logo.svg" alt="Logo">
+        </span>
+        <div class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#reserva">Reservación</a>
+            <a href="#sociales">Redes</a>
+        </div>
+    </aside>
+
+<!--Filtro -->
+    
+    <section id="catalogo" class="filter">
+        <label for="search">Filtrar por:</label>
+        <select name="search" id="list">
+            <option value="products">Productos</option>
+            <option value="services">Servicios</option>
+        </select>
+    </section>
+
+<!-- Home -->
+
+    <section class="home">
+        <a id="inicio"></a>
+        <header>
+            <h3>Bienvenidos a <b>Farmacia Siempre Saludable</b></h3>
+            <p>Atendemos las 24 horas</p>
+            <p>Si no tenemos algún producto lo buscamos para tí</p>
+        </header>
+    </section>
+
+<!-- Tarjetas -->
+
+    <main>
+
+        <div class="content">
+
+<!-- Desde Mobil -->
+            
+            <figure>
+                <span>
+                    <img src="assets/img/medicamentos.jpg" alt="medicamentos">
+                </span>
+                <p>Medicamentos</p>
+                <button>Ver más</button>
+            </figure>
+            
+<!-- Desde Tablet -->
+            
+            <figure>
+                <span>
+                    <img src="assets/img/parchecurita.jpg" alt="parches">
+                </span>
+                <p>Parches</p>
+                <button>Ver más</button>
+            </figure>
+
+<!-- Desde Escritorio -->
+            
+            <figure>
+                <span>
+                    <img src="assets/img/gasa.jpg" alt="gasa">
+                </span>
+                <p>Gasa Medica</p>
+                <button>Ver más</button>
+            </figure>
+            
+            <figure>
+                <span>
+                    <img src="assets/img/inyectables.jpg" alt="inyeccion">
+                </span>
+                <p>Medicamentos Inyectables</p>
+                <button>Ver más</button>
+            </figure>
+            
+            <figure>
+                <span>
+                    <img src="assets/img/vendas.jpg" alt="vendas">
+                </span>
+                <p>Vendaje</p>
+                <button>Ver más</button>
+            </figure>
+            
+            <figure>
+                <span>
+                    <img src="assets/img/condon.jpg" alt="condon">
+                </span>
+                <p>Profilacticos</p>
+                <button>Ver más</button>
+            </figure>
+            
+            <figure>
+                <span>
+                    <img src="assets/img/perfume.jpg" alt="perfume">
+                </span>
+                <p>Perfumes</p>
+                <button>Ver más</button>
+            </figure>
+            
+            <figure>
+                <span>
+                    <img src="assets/img/serinyeccion.jpg" alt="inyeccion">
+                </span>
+                <p>Servicio de puesta de inyección</p>
+                <button>Ver más</button>
+            </figure>
+
+<!-- Número de Paginas -->
+
+        </div>
+            <div class="page">
+            <a href="#" class="inactive"><<</a>
+            <a href="#" class="active">1</a>
+            <a href="#" class="inactive">2</a>
+            <a href="#" class="inactive">3</a>
+            <a href="#" class="inactive">>></a>
+        </div>
+
+    </main>
+    
+<!-- Contacto -->
+
+    <section id="reserva">
+        <form action="#" method="post">
+            
+            <div class="contact">
+                <h4>¿Deseas agendar una hora de inyección o no encontraste un producto que necesitas?</h4>
+                <p>Recuerda que si no encontraste un producto, lo buscamos por ti</p>
+            </div>
+                
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name">
+            
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail">   
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+<!-- Pie de pagina -->
+    
+    <footer id="sociales">
+        <p><b>Farmacia Siempre Saludable</b></p>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <span class="text">Copyright ©️ Todos los derechos reservados</span>
+    </footer>
+</body>
+</html>
